@@ -22,7 +22,7 @@ body {
 /* #################### Utility Class ###################### */
 .container {
     max-width: 1200px;
-    width: 90%;
+    width: 80%;
     margin: auto;
     /* border: 2px solid black */
 }
@@ -43,7 +43,7 @@ body {
     z-index: 999;
     background: #fff;
     color: #000;
-    opacity: 1;
+    opacity: .85;
 }
 
 .navbar-container {
@@ -82,4 +82,13 @@ body {
 
 .menu-items li a:hover {
     color: #117911;
+}
+
+
+
+
+.showcase-section {
+    border: 5px solid black;
+    /* margin-top: 10rem; */
+    color: #000;
 }
